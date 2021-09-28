@@ -40,7 +40,9 @@ if (score >= limit) {
 }
 
 var password = "azerty"
-if (password.length >= 5) {console.log("The password is secure")}
+if (password.length >= 5) {
+	console.log("The password is secure")
+}
 
 if (score >= limit && password.length >= 5) {
     console.log("Everything is good")
@@ -99,14 +101,14 @@ switch (month) {
 		console.log("Winter");
 }
 
-var roundedNumber = 3.2
+var roundedNumber = 3.6
 var ceil = Math.ceil(roundedNumber) 
 var floor = Math.floor(roundedNumber)
 
 
 
 if (ceil - roundedNumber >= 0.5  ) {
-    console.log(Math.floor(roundedNumber))
+    console.log(floor)
 } else {
-    console.log(Math.ceil(roundedNumber))
+    console.log(ceil)
 }
