@@ -123,7 +123,7 @@
 // console.log(total)
 
 
-// Boites Validés 
+// Boites Validées 
 
 // Amstrong
 
