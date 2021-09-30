@@ -57,5 +57,28 @@
 
 
 
+function format (num) {
+    var total = 0
+    var hours = 0
+    var min = 0
+    var sec = sec + 1
+    if (sec > 60) {
+        min = min + 1
+    }
+    if (sec => 60) {
+        sec = 0
+    }
+    if (min => 60) {
+        hours = hours + 1
+    }
+    if (min => 60) {
+        min = 0
+    }
+
+    num = `${hours} : ${min} : ${sec}`
+    
+}
+
+format(350)
 
 
