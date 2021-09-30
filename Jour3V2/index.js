@@ -94,20 +94,36 @@
 //     var total = total + result    
 // }
 // console.log (total)
-var array = []
-j = 0
 
-for (i=100; i<=1000; i++) {
-    if (i % 7 === 0) {
-        array[j]=i
-        j++
-    }
-    else (undefined)
-    
-    
+// var j = 0
 
-}
+// for (i=100; i<=1000; i++) {
+//     if (i % 7 === 0) {
+//         j++
+        
+//     }
+// }
+
+// console.log(j)
+
+// var min = 1;
+// var max = 6;
+// var total = 0
 
 
+// for(i=0; i<20; i++) {
+//     var random = Math.floor(Math.random() * (max - min + 1) + min);
+//     if(random >= 5) {
+//         console.log(random)
+//       total = total + random
+//     }
 
-console.log(array.length)
+// }
+
+// console.log(total)
+
+
+// Boites Validés 
+
+// Amstrong
+
