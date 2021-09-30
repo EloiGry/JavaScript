@@ -79,27 +79,29 @@
 // var result = 1
 
 // for(var i=1; i<=8; i++) {
-//     for(var j=1; j<=8; j++) {
-//         var result = result * j
-//         {console.log (result)}
+//     var result = 1
+//     for(var j=1; j <=i; j++) {
+//         result = result * j
+        
 //     }
+//     {console.log (result)}
 //     }
 
 
 
 // var total = 0
 
-// for (i=5; i<=10; i++) {
+// for (var i=5; i<=10; i++) {
 //     var result = i * i
 //     var total = total + result    
 // }
 // console.log (total)
 
-// var j = 0
+// var result = 0
 
-// for (i=100; i<=1000; i++) {
+// for (var i=100; i<=1000; i++) {
 //     if (i % 7 === 0) {
-//         j++
+//         result++
         
 //     }
 // }
@@ -129,12 +131,23 @@
 
 
 
-for (i=0; i<10; i++) {
-    for (j=0; j<10; j++ ) {
-    for (k=0; k<10; k++ ) { 
-        var result = i * 100 + j*10 + k
-        var total = i**3 + j**3 + k**3
-     if (total === result) {console.log(total)}
-    }
-}   
-}
+// for (i=0; i<10; i++) {
+//     for (j=0; j<10; j++ ) {
+//     for (k=0; k<10; k++ ) {
+//     for (l=0; l<10; l++) {
+//         var result = i * 1000 + j*100 + k*10 + l
+//         var total = i**4 + j**4 + k**4 + l**4
+//         var total1 = i**3 + j**3 + k**3 + l**3
+//         var total2 = i**2 + j**2 + k**2 + l**2
+//         var total3 = i**1 + j**1 + k**1 + l**1
+//      if (total === result ||total1 === result ||total2 === result ||total3 === result) {console.log(result)}
+//     }
+//     }
+// }   
+// }
+
+
+
+// for (i=0; i<1000; i++) {
+
+// }
