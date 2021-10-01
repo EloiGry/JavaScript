@@ -7,7 +7,7 @@
 
 // console.log(cat)
 // console.log(cat.age)
-// if(cat.isCute === true) {console.log("So cute!")}
+// if(cat.isCute) {console.log("So cute!")}
 
 
 // var cat2 = {
@@ -49,36 +49,59 @@
 //     var total = 0
 //     for (var i = 1; i <= num; i++ ) {
 //         var total = total + i
-//         console.log(total)
 // }
+//          console.log(total)
 // }
 
 // addUp(12)
 
 
 
-function format (num) {
-    var total = 0
-    var hours = 0
-    var min = 0
-    var sec = sec + 1
-    if (sec > 60) {
-        min = min + 1
-    }
-    if (sec => 60) {
-        sec = 0
-    }
-    if (min => 60) {
-        hours = hours + 1
-    }
-    if (min => 60) {
-        min = 0
-    }
-
-    num = `${hours} : ${min} : ${sec}`
+// function format (num) {
+//     var hours = 0
+//     var min = 0
+//     var sec = 0
     
-}
+//     for (var i=0; i<num; i++) {
+//         if (sec === 59) {
+//             min = min + 1
+//             sec = -1
+            
+//         }   
 
-format(350)
+        
+//         if (min === 60) {
+//             hours = hours + 1
+//             min = 0
+//         }
 
+//         sec = sec + 1
+        
+//  }
+//  console.log (`${hours} : ${min} : ${sec}`)
+    
+// }
+
+// format(3600)
+
+// function generatePassword (num) {
+//     var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+//     var min = 0
+//     var max = characters.length -1
+//     var total = ""
+
+//     if(num < 6 || num > 15) {
+//         console.log("error")
+//     } else {console.log("")}
+
+//     for (var i=0; i<num; i++) {
+//         var random = Math.floor(Math.random() * (max - min + 1) + min)
+//         total = total + characters[random]
+        
+//     }
+//     console.log(total)
+// }
+
+
+// generatePassword(5)
 
